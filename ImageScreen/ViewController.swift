@@ -19,7 +19,6 @@ class ViewController: UIViewController {
         
         button.backgroundColor = UIColor.white
         button.setTitle("Show", for: .normal)
-//        button.setTitleColor(UIColor.black, for: .normal)
         button.frame.size = CGSize(width: 100, height: 50)
         button.center = CGPoint(x: size.width / 2, y: size.height * 3 / 4)
         
@@ -33,7 +32,6 @@ class ViewController: UIViewController {
         
         button.backgroundColor = UIColor.white
         button.setTitle("Download", for: .normal)
-//        button.setTitleColor(UIColor.black, for: .normal)
         button.frame.size = CGSize(width: 100, height: 50)
         button.center = CGPoint(x: size.width / 2, y: size.height * 3 / 4 + 50)
         
@@ -47,7 +45,6 @@ class ViewController: UIViewController {
         
         button.backgroundColor = UIColor.white
         button.setTitle("Clear cash", for: .normal)
-//        button.setTitleColor(UIColor.black, for: .normal)
         button.frame.size = CGSize(width: 100, height: 50)
         button.center = CGPoint(x: size.width / 2, y: size.height * 3 / 4 + 100)
         
@@ -56,22 +53,7 @@ class ViewController: UIViewController {
         return button
     }()
     
-    lazy var imageView : UIImageView = {
-        let imageView = UIImageView()
-        imageView.frame = self.view.bounds
-//        imageView.center = CGPoint(x: size.width / 2, y: size.height / 2)
-        
-        return imageView
-    }()
-    
-//    var alertController: UIAlertController = {
-//        let alert = UIAlertController(title: "Error", message: "", preferredStyle: UIAlertController.Style.alert)
-//        let defaultAction = UIAlertAction(title: "OK", style: UIAlertAction.Style.default) { (action) in
-//        }
-//        alert.addAction(defaultAction)
-//
-//        return alert
-//    }()
+    lazy var imageView: UIImageView = UIImageView(frame: view.bounds)
     
     let presenter: PresenterInput
     

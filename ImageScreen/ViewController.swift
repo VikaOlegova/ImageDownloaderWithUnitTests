@@ -57,8 +57,9 @@ class ViewController: UIViewController {
     }()
     
     lazy var imageView : UIImageView = {
-        let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 300, height: 300))
-        imageView.center = CGPoint(x: size.width / 2, y: size.height / 2)
+        let imageView = UIImageView()
+        imageView.frame = self.view.bounds
+//        imageView.center = CGPoint(x: size.width / 2, y: size.height / 2)
         
         return imageView
     }()
@@ -94,10 +95,10 @@ class ViewController: UIViewController {
     func createUI() {
         view.backgroundColor = .white
         
+        view.addSubview(imageView)
         view.addSubview(downloadButton)
         view.addSubview(showButton)
         view.addSubview(clearCacheButton)
-        view.addSubview(imageView)
     }
     
     @objc func didTapDownloadButton(button: UIButton) {

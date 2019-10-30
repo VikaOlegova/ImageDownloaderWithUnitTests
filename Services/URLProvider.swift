@@ -15,6 +15,6 @@ protocol URLProviderProtocol {
 class URLProvider: URLProviderProtocol {
     
     var imageURL: URL? {
-        return URL(string: "http://icons.iconarchive.com/icons/dtafalonso/ios8/512/Calendar-icon.png")
+        return URL(string: "https://picsum.photos/400/800")
     }
 }

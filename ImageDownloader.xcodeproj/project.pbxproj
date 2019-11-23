@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C049AAB23888ADD00F17697 /* InteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C049AAA23888ADD00F17697 /* InteractorTests.swift */; };
+		3C049AC32388C31300F17697 /* AssemblyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C049AC22388C31300F17697 /* AssemblyTests.swift */; };
+		3C049AC42389C3F900F17697 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA1820A2368ECD900D956BB /* NetworkService.swift */; };
+		3C049AC52389C3F900F17697 /* URLProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA1820C2368EE0A00D956BB /* URLProvider.swift */; };
+		3C049AC62389C3F900F17697 /* CacheService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA1820E2368F01B00D956BB /* CacheService.swift */; };
+		3C049AC72389C3F900F17697 /* DataValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA182102368FED400D956BB /* DataValidator.swift */; };
+		3C049AC82389C3F900F17697 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA181F12368DCB200D956BB /* ViewController.swift */; };
+		3C049AC92389C3F900F17697 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA182022368DEFE00D956BB /* Presenter.swift */; };
+		3C049ACA2389C3F900F17697 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA18212236903A400D956BB /* Router.swift */; };
+		3C049ACB2389C3F900F17697 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA182072368E84600D956BB /* Interactor.swift */; };
+		3C049ACC2389C3F900F17697 /* Assembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA1821423690F6700D956BB /* Assembly.swift */; };
 		3CA181F02368DCB200D956BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA181EF2368DCB200D956BB /* AppDelegate.swift */; };
 		3CA181F22368DCB200D956BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA181F12368DCB200D956BB /* ViewController.swift */; };
 		3CA181F72368DCB600D956BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CA181F62368DCB600D956BB /* Assets.xcassets */; };
@@ -21,7 +32,21 @@
 		3CA1821523690F6700D956BB /* Assembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA1821423690F6700D956BB /* Assembly.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		3C049AB52388C0F900F17697 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CA181E42368DCB200D956BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CA181EB2368DCB200D956BB;
+			remoteInfo = ImageDownloader;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		3C049AA823888ADD00F17697 /* ImageDownloaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageDownloaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C049AAA23888ADD00F17697 /* InteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractorTests.swift; sourceTree = "<group>"; };
+		3C049AAC23888ADD00F17697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C049AC22388C31300F17697 /* AssemblyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssemblyTests.swift; sourceTree = "<group>"; };
 		3CA181EC2368DCB200D956BB /* ImageDownloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageDownloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CA181EF2368DCB200D956BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CA181F12368DCB200D956BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,6 +64,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3C049AA523888ADD00F17697 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3CA181E92368DCB200D956BB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -49,11 +81,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C049AA923888ADD00F17697 /* ImageDownloaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C049AAA23888ADD00F17697 /* InteractorTests.swift */,
+				3C049AC22388C31300F17697 /* AssemblyTests.swift */,
+				3C049AAC23888ADD00F17697 /* Info.plist */,
+			);
+			path = ImageDownloaderTests;
+			sourceTree = "<group>";
+		};
+		3C049AB2238895F400F17697 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3CA181E32368DCB200D956BB = {
 			isa = PBXGroup;
 			children = (
 				3CA181EE2368DCB200D956BB /* ImageDownloader */,
+				3C049AA923888ADD00F17697 /* ImageDownloaderTests */,
 				3CA181ED2368DCB200D956BB /* Products */,
+				3C049AB2238895F400F17697 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				3CA181EC2368DCB200D956BB /* ImageDownloader.app */,
+				3C049AA823888ADD00F17697 /* ImageDownloaderTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -104,6 +156,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		3C049AA723888ADD00F17697 /* ImageDownloaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C049AB123888ADD00F17697 /* Build configuration list for PBXNativeTarget "ImageDownloaderTests" */;
+			buildPhases = (
+				3C049AA423888ADD00F17697 /* Sources */,
+				3C049AA523888ADD00F17697 /* Frameworks */,
+				3C049AA623888ADD00F17697 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C049AB62388C0F900F17697 /* PBXTargetDependency */,
+			);
+			name = ImageDownloaderTests;
+			productName = ImageDownloaderTests;
+			productReference = 3C049AA823888ADD00F17697 /* ImageDownloaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		3CA181EB2368DCB200D956BB /* ImageDownloader */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3CA181FE2368DCB600D956BB /* Build configuration list for PBXNativeTarget "ImageDownloader" */;
@@ -131,6 +201,9 @@
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Vika Olegova";
 				TargetAttributes = {
+					3C049AA723888ADD00F17697 = {
+						CreatedOnToolsVersion = 10.2;
+					};
 					3CA181EB2368DCB200D956BB = {
 						CreatedOnToolsVersion = 10.2;
 					};
@@ -150,11 +223,19 @@
 			projectRoot = "";
 			targets = (
 				3CA181EB2368DCB200D956BB /* ImageDownloader */,
+				3C049AA723888ADD00F17697 /* ImageDownloaderTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3C049AA623888ADD00F17697 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3CA181EA2368DCB200D956BB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -167,6 +248,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3C049AA423888ADD00F17697 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C049AAB23888ADD00F17697 /* InteractorTests.swift in Sources */,
+				3C049ACC2389C3F900F17697 /* Assembly.swift in Sources */,
+				3C049AC42389C3F900F17697 /* NetworkService.swift in Sources */,
+				3C049ACB2389C3F900F17697 /* Interactor.swift in Sources */,
+				3C049AC92389C3F900F17697 /* Presenter.swift in Sources */,
+				3C049AC72389C3F900F17697 /* DataValidator.swift in Sources */,
+				3C049ACA2389C3F900F17697 /* Router.swift in Sources */,
+				3C049AC52389C3F900F17697 /* URLProvider.swift in Sources */,
+				3C049AC82389C3F900F17697 /* ViewController.swift in Sources */,
+				3C049AC32388C31300F17697 /* AssemblyTests.swift in Sources */,
+				3C049AC62389C3F900F17697 /* CacheService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3CA181E82368DCB200D956BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -186,6 +285,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		3C049AB62388C0F900F17697 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CA181EB2368DCB200D956BB /* ImageDownloader */;
+			targetProxy = 3C049AB52388C0F900F17697 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		3CA181F82368DCB600D956BB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -198,6 +305,40 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		3C049AAF23888ADD00F17697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ImageDownloaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com-vikaolegova.ImageDownloaderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C049AB023888ADD00F17697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ImageDownloaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com-vikaolegova.ImageDownloaderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		3CA181FC2368DCB600D956BB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -353,6 +494,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3C049AB123888ADD00F17697 /* Build configuration list for PBXNativeTarget "ImageDownloaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C049AAF23888ADD00F17697 /* Debug */,
+				3C049AB023888ADD00F17697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		3CA181E72368DCB200D956BB /* Build configuration list for PBXProject "ImageDownloader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

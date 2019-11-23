@@ -43,7 +43,6 @@ class Interactor: InteractorInput {
     func downloadImage() {
         guard let url = urlProvider.imageURL else { return }
         networkService.downloadData(from: url)
-        
     }
     
     func clearCache() {
